@@ -27,6 +27,23 @@
                         <li><a class="dropdown-item" href="#">Spécialité</a></li>
                     </ul>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Cartographie</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Pays</a></li>
+                        <li><a class="dropdown-item" href="#">Ville</a></li>
+                        <li><a class="dropdown-item" href="#">Localité</a></li>
+                        <li><a class="dropdown-item" href="#">Patient</a></li>
+                        <li><a class="dropdown-item" href="#">Agent</a></li>
+                        <li><a class="dropdown-item" href="#">Spécialité</a></li>
+                        <li><a class="dropdown-item" href="#">Pays</a></li>
+                        <li><a class="dropdown-item" href="#">Ville</a></li>
+                        <li><a class="dropdown-item" href="#">Localité</a></li>
+                        <li><a class="dropdown-item" href="#">Patient</a></li>
+                        <li><a class="dropdown-item" href="#">Agent</a></li>
+                        <li><a class="dropdown-item" href="#">Spécialité</a></li>
+                    </ul>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" aria-current="page" href="#">Traitement</a>
                 </li>

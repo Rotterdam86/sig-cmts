@@ -1,4 +1,4 @@
-@extends('masters.modele_de_base')
+@extends('masters.modele_de_base', ['title' => 'Cmts'])
 
 @section('content') 
     <div class="container">
@@ -11,7 +11,7 @@
                 </p>
             </div>
         </div>
-        <p>Feel Free to help to improve the <a href="#">source code</a></p>
+        <p>Feel Free to help to improve the <a href="//github.com/Rotterdam86/sig-cmts">source code</a></p>
 
         <hr/>
         <h2>DGBF</h2>
