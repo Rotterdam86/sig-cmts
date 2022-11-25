@@ -1,5 +1,9 @@
 <?php 
+
     // Voir si la fonction page_title n'existe pas 
+
+use Illuminate\Support\Facades\Route;
+
     if(! function_exists('page_title'))
     {
         // on crée la fonction page_title
@@ -20,3 +24,13 @@
             }
         }
     }
+     // Voir si la fonction set_active_route n'existe pas 
+     if(! function_exists('set_active_route'))
+     {
+         // on crée la fonction set_active_route
+         function set_active_route($route)
+         {
+                 // on retourne une route active ou pas
+                 return Route::is($route) ? 'active' : '';
+         }
+     }

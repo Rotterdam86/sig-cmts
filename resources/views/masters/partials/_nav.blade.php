@@ -6,14 +6,14 @@
         </button>
 
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <ul class="nav nav-pills">
                 <li class="nav-item">
-                     <a class="nav-link active" href="{{ route('cmts_path') }}">CMTS</a>
+                     <a class="nav-link {{ set_active_route('cmts_path') }}" href="{{ route('cmts_path') }}">CMTS</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Fichier</a>
                     <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Pays</a></li>
+                        <li class="dropdown-item"><a class="dropdown-item" href="{{ route('root_path') }}">Pays</a></li>
                         <li><a class="dropdown-item" href="#">Ville</a></li>
                         <li><a class="dropdown-item" href="#">Localité</a></li>
                         <li><a class="dropdown-item" href="#">Patient</a></li>
