@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Route;
         function page_title($title)
         {
             // initialisation d'une variable de base
-            $base_title = 'Sig@ - Médicale';
+            $base_title = config('app.name') . ' - Horizon';
             // voir si il n'y a pas de titre
             if($title == '')
             {

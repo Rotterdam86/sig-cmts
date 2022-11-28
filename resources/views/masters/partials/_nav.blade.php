@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg static-top navbar-default bg-light" aria-label="Main navigation">
     <div class="container-fluid">
-        <a class="navbar-brand" href="{{ route('root_path') }}">Sig@Med</a>
+        <a class="navbar-brand" href="{{ route('root_path') }}">{{ config('app.name') }}</a>
         <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -8,7 +8,7 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
              <ul class="nav nav-pills">
                 <li class="nav-item">
-                     <a class="nav-link {{ set_active_route('cmts_path') }}" href="{{ route('cmts_path') }}">CMTS</a>
+                     <a class="nav-link {{ set_active_route('cmts_path') }}" href="{{ route('cmts_path') }}">Pr&eacute;sentation</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Fichier</a>
