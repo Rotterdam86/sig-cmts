@@ -6,8 +6,8 @@
         </button>
 
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-             <ul class="nav nav-pills">
-                <li class="nav-item">
+             <ul class="nav nav-pills nav-fill">
+                <li class="nav-item" role="presentation">
                      <a class="nav-link {{ set_active_route('cmts_path') }}" href="{{ route('cmts_path') }}">Pr&eacute;sentation</a>
                 </li>
                 <li class="nav-item dropdown">
@@ -51,7 +51,7 @@
                     <a class="nav-link" href="#">Edition</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contacts</a>
+                    <a class="nav-link {{ set_active_route('contact_path') }}" href="{{ route('contact_path') }}">Contacts</a>
                 </li>  
             </ul>
             <ul class="nav navbar-nav navbar-right">

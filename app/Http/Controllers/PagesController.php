@@ -19,4 +19,11 @@ class PagesController extends Controller
         // On retourne la vue cmts
         return view('pages.cmts');
     }
+
+    // définition de l'action contact
+    /*public function contact()
+    {
+        // On retourne la vue cmts
+        //return view('pages.cmts');
+    }*/
 }
