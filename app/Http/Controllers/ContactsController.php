@@ -20,6 +20,8 @@ class ContactsController extends Controller
     // Définition de la méthode store
     public function store(ContactRequest $request)
     {
+        // pause message de trois (3) secondes
+        //sleep(3);
         // nouvelle instance du model message
         //création d'un nouveau message
         $message = Message::create($request->only('nom', 'prenom', 'email', 'sms'));
@@ -35,6 +37,6 @@ class ContactsController extends Controller
         // envoie de mail
         Mail::to(config('sigcmts.admin_support_email'))->send($mailable);
         flashy('Nous vous répondrons dans les plus bref delais');
-       return redirect()->route('root_path');
+        return redirect()->route('root_path');
     }
 }
